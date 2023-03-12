@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
+.main {
+  width: 320px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(#81A16A,#539095);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  padding: 10px 0px 50px 0px;
+}
+.search {
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  padding: 0px 10px;
+}
+.search input {
+  width: 72%;
+  height: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  padding-left: 20px;
+  font: 20px bold;
+}
+.search button {
+  width: 25%;
+  height: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.dictionry {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: 20px;
+}
+.dictionry .word {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.word h3, .meaning h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 0px 10px;
+}
+.dictionry .meaning {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dictionry .audio {
+  width: 95%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dictionry .icon {
+  gap: 20px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
